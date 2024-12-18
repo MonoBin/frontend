@@ -6,9 +6,9 @@ import {CreatePasteComponent} from "./create-paste/create-paste.component";
 import {OverviewComponent} from "./overview/overview.component";
 
 export const routes: Routes = [
-  {path: '', component: HomeComponent, title: 'MonoPaste | Home'},
-  {path: 'login', component: LoginComponent, title: 'MonoPaste | Login'},
-  {path: 'paste', component: ViewPasteComponent, title: 'MonoPaste | View Paste'},
-  {path: 'create', component: CreatePasteComponent, title: 'MonoPaste | Create Paste'},
-  {path: 'overview', component: OverviewComponent, title: 'MonoPaste | Overview'},
+  {path: '', component: HomeComponent, title: 'MonoBin | Home'},
+  {path: 'login', component: LoginComponent, title: 'MonoBin | Login'},
+  {path: 'paste', component: ViewPasteComponent, title: 'MonoBin | View Paste'},
+  {path: 'create', component: CreatePasteComponent, title: 'MonoBin | Create Paste'},
+  {path: 'overview', component: OverviewComponent, title: 'MonoBin | Overview'},
 ]
